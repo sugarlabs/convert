@@ -2,312 +2,313 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-10-29 08:24-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2019-03-09 00:05+0000\n"
+"Last-Translator: Paulo Francisco <slomp@ufrgs.br>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: hu\n"
+"Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 1.11.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.5.1.1\n"
+"X-POOTLE-MTIME: 1552089946.000000\n"
 
 #. TRANS: "name" option from activity.info file
 #. TRANS: "summary" option from activity.info file
 #. TRANS: "description" option from activity.info file
 #: activity.py:74
 msgid "Convert"
-msgstr ""
+msgstr "Converter"
 
 #: activity.py:108
 msgid "Length"
-msgstr ""
+msgstr "Comprimento"
 
 #: activity.py:114
 msgid "Volume"
-msgstr ""
+msgstr "Volume"
 
 #: activity.py:121
 msgid "Area"
-msgstr ""
+msgstr "Área"
 
 #: activity.py:128
 msgid "Weight"
-msgstr ""
+msgstr "Peso"
 
 #: activity.py:135
 msgid "Speed"
-msgstr ""
+msgstr "Velocidade"
 
 #: activity.py:142
 msgid "Time"
-msgstr ""
+msgstr "Tempo"
 
 #: activity.py:149
 msgid "Temperature"
-msgstr ""
+msgstr "Temperatura"
 
 #: convert.py:19
 msgid "Meters (m)"
-msgstr ""
+msgstr "Metros (m)"
 
 #: convert.py:20
 msgid "Kilometers (km)"
-msgstr ""
+msgstr "Quilômetros (km)"
 
 #: convert.py:21
 msgid "Centimeter (cm)"
-msgstr ""
+msgstr "Centímetros (cm)"
 
 #: convert.py:22
 msgid "Cables"
-msgstr ""
+msgstr "Cabos"
 
 #: convert.py:23
 msgid "Miles"
-msgstr ""
+msgstr "Milhas"
 
 #: convert.py:24
 msgid "Millimeters (mm)"
-msgstr ""
+msgstr "Milímetros (mm)"
 
 #: convert.py:25
 msgid "Decimeter (dm)"
-msgstr ""
+msgstr "Decímetros (dm)"
 
 #: convert.py:26
 msgid "Decameter"
-msgstr ""
+msgstr "Decâmetros"
 
 #: convert.py:27
 msgid "Hectometers (hm)"
-msgstr ""
+msgstr "Hectômetros (hm)"
 
 #: convert.py:28
 msgid "Chains"
-msgstr ""
+msgstr "Cadeias"
 
 #: convert.py:29
 msgid "Ell"
-msgstr ""
+msgstr "Côvado"
 
 #: convert.py:30
 msgid "Ems (Pica)"
-msgstr ""
+msgstr "Ems (Pica)"
 
 #: convert.py:31
 msgid "Fathoms"
-msgstr ""
+msgstr "Braça"
 
 #: convert.py:32 convert.py:41 convert.py:62
 msgid "feet"
-msgstr ""
+msgstr "pé"
 
 #: convert.py:33
 msgid "Furlongs"
-msgstr ""
+msgstr "Estádios"
 
 #: convert.py:34
 msgid "Inches (in)"
-msgstr ""
+msgstr "Polegadas (in)"
 
 #: convert.py:35
 msgid "Micrometers"
-msgstr ""
+msgstr "Micrômetros"
 
 #: convert.py:36
 msgid "Scandinavian mile"
-msgstr ""
+msgstr "Milha escandinava"
 
 #: convert.py:37
 msgid "Yards"
-msgstr ""
+msgstr "Jardas"
 
 #: convert.py:40 convert.py:61
 msgid "Meter"
-msgstr ""
+msgstr "Metro"
 
 #: convert.py:42 convert.py:63
 msgid "Yard"
-msgstr ""
+msgstr "Jarda"
 
 #: convert.py:43 convert.py:64
 msgid "Inch"
-msgstr ""
+msgstr "Polegada"
 
 #: convert.py:44 convert.py:65
 msgid "Kilometer"
-msgstr ""
+msgstr "Quilômetro"
 
 #: convert.py:45 convert.py:66
 msgid "Mile"
-msgstr ""
+msgstr "Milha"
 
 #: convert.py:46 convert.py:67
 msgid "Centimeter"
-msgstr ""
+msgstr "Centímetro"
 
 #: convert.py:47 convert.py:68
 msgid "Millimeter"
-msgstr ""
+msgstr "Milímetro"
 
 #: convert.py:48
 msgid "Micrometer"
-msgstr ""
+msgstr "Micrômetro"
 
 #: convert.py:49
 msgid "Acre"
-msgstr ""
+msgstr "Acre"
 
 #: convert.py:52
 msgid "Gram"
-msgstr ""
+msgstr "Grama"
 
 #: convert.py:53
 msgid "Kilogram"
-msgstr ""
+msgstr "Quilograma"
 
 #: convert.py:54
 msgid "Milligram"
-msgstr ""
+msgstr "Miligrama"
 
 #: convert.py:55
 msgid "Ton"
-msgstr ""
+msgstr "Tonelada"
 
 #: convert.py:56
 msgid "Pound"
-msgstr ""
+msgstr "Libra"
 
 #: convert.py:57
 msgid "Ounce"
-msgstr ""
+msgstr "Onça"
 
 #: convert.py:58
 msgid "Carat"
-msgstr ""
+msgstr "Quilate"
 
 #: convert.py:69
 msgid "Liter"
-msgstr ""
+msgstr "Litro"
 
 #: convert.py:70
 msgid "Milliliter"
-msgstr ""
+msgstr "Mililitro"
 
 #: convert.py:71
 msgid "Pint"
-msgstr ""
+msgstr "Pinta"
 
 #: convert.py:72
 msgid "Quart"
-msgstr ""
+msgstr "Quarto"
 
 #: convert.py:73
 msgid "Gallon"
-msgstr ""
+msgstr "Galão"
 
 #: convert.py:76
 msgid "Kilometers/Hour"
-msgstr ""
+msgstr "Quilômetros/Hora"
 
 #: convert.py:77
 msgid "Centimeters/Minute"
-msgstr ""
+msgstr "Centímetros/Minuto"
 
 #: convert.py:78
 msgid "Centimeters/Second"
-msgstr ""
+msgstr "Centímetro/Segundo"
 
 #: convert.py:79
 msgid "feet/Hour"
-msgstr ""
+msgstr "pés/Hora"
 
 #: convert.py:80
 msgid "Feet/Minute"
-msgstr ""
+msgstr "Pés/Minuto"
 
 #: convert.py:81
 msgid "Feet/Second"
-msgstr ""
+msgstr "Pés/Segundo"
 
 #: convert.py:82
 msgid "Inches/Second"
-msgstr ""
+msgstr "Polegadas/Segundo"
 
 #: convert.py:83
 msgid "Kilometers/Second"
-msgstr ""
+msgstr "Quilômetros/Segundo"
 
 #: convert.py:84
 msgid "Knots"
-msgstr ""
+msgstr "Nós"
 
 #: convert.py:85
 msgid "Mach"
-msgstr ""
+msgstr "Mach"
 
 #: convert.py:86
 msgid "Meters/Second"
-msgstr ""
+msgstr "Metros/Segundo"
 
 #: convert.py:89
 msgid "Day"
-msgstr ""
+msgstr "Dia"
 
 #: convert.py:90
 msgid "Week"
-msgstr ""
+msgstr "Semana"
 
 #: convert.py:91
 msgid "Month"
-msgstr ""
+msgstr "Mês"
 
 #: convert.py:92
 msgid "Year"
-msgstr ""
+msgstr "Ano"
 
 #: convert.py:93
 msgid "Hour"
-msgstr ""
+msgstr "Hora"
 
 #: convert.py:94
 msgid "Minute"
-msgstr ""
+msgstr "Minuto"
 
 #: convert.py:95
 msgid "Second"
-msgstr ""
+msgstr "Segundo"
 
 #: convert.py:96
 msgid "Millisecond"
-msgstr ""
+msgstr "Milissegundo"
 
 #: convert.py:97
 msgid "Microsecond"
-msgstr ""
+msgstr "Microssegundo"
 
 #: convert.py:98
 msgid "Nanosecond"
-msgstr ""
+msgstr "Nanosegundo"
 
 #: convert.py:99
 msgid "Picosecond"
-msgstr ""
+msgstr "Pico-segundo"
 
 #: convert.py:102
 msgid "Celsius"
-msgstr ""
+msgstr "Celsius"
 
 #: convert.py:103
 msgid "Fahrenheit"
-msgstr ""
+msgstr "Fahrenheit"
 
 #: convert.py:104
 msgid "Kelvin"
-msgstr ""
+msgstr "Kelvin"

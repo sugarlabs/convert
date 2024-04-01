@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-10-29 08:24-0400\n"
-"PO-Revision-Date: 2017-03-28 13:11+0000\n"
-"Last-Translator: GeeKrypter <psramaraju@gmail.com>\n"
+"PO-Revision-Date: 2019-04-05 00:41+0000\n"
+"Last-Translator: roohan <rizvi.beta@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hi\n"
 "MIME-Version: 1.0\n"
@@ -17,14 +17,14 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.1.1\n"
-"X-POOTLE-MTIME: 1490706679.000000\n"
+"X-POOTLE-MTIME: 1554424887.000000\n"
 
 #. TRANS: "name" option from activity.info file
 #. TRANS: "summary" option from activity.info file
 #. TRANS: "description" option from activity.info file
 #: activity.py:74
 msgid "Convert"
-msgstr ""
+msgstr "बदलना"
 
 #: activity.py:108
 msgid "Length"
@@ -32,7 +32,7 @@ msgstr "लंबाई"
 
 #: activity.py:114
 msgid "Volume"
-msgstr ""
+msgstr "आयतन"
 
 #: activity.py:121
 msgid "Area"
@@ -56,155 +56,155 @@ msgstr "तापमान"
 
 #: convert.py:19
 msgid "Meters (m)"
-msgstr ""
+msgstr "मीटर (एम)"
 
 #: convert.py:20
 msgid "Kilometers (km)"
-msgstr ""
+msgstr "किलोमीटर (किमी)"
 
 #: convert.py:21
 msgid "Centimeter (cm)"
-msgstr ""
+msgstr "सेंटीमीटर (सेमी)"
 
 #: convert.py:22
 msgid "Cables"
-msgstr ""
+msgstr "केबल्स"
 
 #: convert.py:23
 msgid "Miles"
-msgstr ""
+msgstr "मीलों"
 
 #: convert.py:24
 msgid "Millimeters (mm)"
-msgstr ""
+msgstr "मिलीमीटर (मिमी)"
 
 #: convert.py:25
 msgid "Decimeter (dm)"
-msgstr ""
+msgstr "डेसीमीटर (डीएम)"
 
 #: convert.py:26
 msgid "Decameter"
-msgstr ""
+msgstr "दस मीटर"
 
 #: convert.py:27
 msgid "Hectometers (hm)"
-msgstr ""
+msgstr "हेक्टोमीटर (hm)"
 
 #: convert.py:28
 msgid "Chains"
-msgstr ""
+msgstr "चेन"
 
 #: convert.py:29
 msgid "Ell"
-msgstr ""
+msgstr "Ell"
 
 #: convert.py:30
 msgid "Ems (Pica)"
-msgstr ""
+msgstr "एम्स (पिका)"
 
 #: convert.py:31
 msgid "Fathoms"
-msgstr ""
+msgstr "no translation needed"
 
 #: convert.py:32 convert.py:41 convert.py:62
 msgid "feet"
-msgstr ""
+msgstr "फिट"
 
 #: convert.py:33
 msgid "Furlongs"
-msgstr ""
+msgstr "फ़र्लांग"
 
 #: convert.py:34
 msgid "Inches (in)"
-msgstr ""
+msgstr "इंच (in)"
 
 #: convert.py:35
 msgid "Micrometers"
-msgstr ""
+msgstr "माइक्रोमीटर"
 
 #: convert.py:36
 msgid "Scandinavian mile"
-msgstr ""
+msgstr "स्कैंडिनेवियाई मील"
 
 #: convert.py:37
 msgid "Yards"
-msgstr ""
+msgstr "गज"
 
 #: convert.py:40 convert.py:61
 msgid "Meter"
-msgstr ""
+msgstr "मीटर"
 
 #: convert.py:42 convert.py:63
 msgid "Yard"
-msgstr ""
+msgstr "यार्ड"
 
 #: convert.py:43 convert.py:64
 msgid "Inch"
-msgstr ""
+msgstr "इंच"
 
 #: convert.py:44 convert.py:65
 msgid "Kilometer"
-msgstr ""
+msgstr "किलोमीटर"
 
 #: convert.py:45 convert.py:66
 msgid "Mile"
-msgstr ""
+msgstr "मील"
 
 #: convert.py:46 convert.py:67
 msgid "Centimeter"
-msgstr ""
+msgstr "सेंटीमीटर"
 
 #: convert.py:47 convert.py:68
 msgid "Millimeter"
-msgstr ""
+msgstr "मिलीमीटर"
 
 #: convert.py:48
 msgid "Micrometer"
-msgstr ""
+msgstr "माइक्रोमीटर"
 
 #: convert.py:49
 msgid "Acre"
-msgstr ""
+msgstr "एकड़"
 
 #: convert.py:52
 msgid "Gram"
-msgstr ""
+msgstr "ग्राम"
 
 #: convert.py:53
 msgid "Kilogram"
-msgstr ""
+msgstr "किलोग्राम"
 
 #: convert.py:54
 msgid "Milligram"
-msgstr ""
+msgstr "मिलीग्राम"
 
 #: convert.py:55
 msgid "Ton"
-msgstr ""
+msgstr "टन"
 
 #: convert.py:56
 msgid "Pound"
-msgstr ""
+msgstr "पौंड"
 
 #: convert.py:57
 msgid "Ounce"
-msgstr ""
+msgstr "औंस"
 
 #: convert.py:58
 msgid "Carat"
-msgstr ""
+msgstr "कैरट"
 
 #: convert.py:69
 msgid "Liter"
-msgstr ""
+msgstr "लीटर"
 
 #: convert.py:70
 msgid "Milliliter"
-msgstr ""
+msgstr "मिलीलीटर"
 
 #: convert.py:71
 msgid "Pint"
-msgstr ""
+msgstr "पिंट"
 
 #: convert.py:72
 msgid "Quart"
@@ -212,51 +212,51 @@ msgstr ""
 
 #: convert.py:73
 msgid "Gallon"
-msgstr ""
+msgstr "गैलन"
 
 #: convert.py:76
 msgid "Kilometers/Hour"
-msgstr ""
+msgstr "किलोमीटर / घंटा"
 
 #: convert.py:77
 msgid "Centimeters/Minute"
-msgstr ""
+msgstr "सेंटीमीटर / मिनट"
 
 #: convert.py:78
 msgid "Centimeters/Second"
-msgstr ""
+msgstr "सेंटीमीटर / सेकेंड"
 
 #: convert.py:79
 msgid "feet/Hour"
-msgstr ""
+msgstr "पैर / घंटे"
 
 #: convert.py:80
 msgid "Feet/Minute"
-msgstr ""
+msgstr "फीट / मिनट"
 
 #: convert.py:81
 msgid "Feet/Second"
-msgstr ""
+msgstr "फीट / सेकेंड"
 
 #: convert.py:82
 msgid "Inches/Second"
-msgstr ""
+msgstr "इंच / सेकेंड"
 
 #: convert.py:83
 msgid "Kilometers/Second"
-msgstr ""
+msgstr "किलोमीटर / सेकेंड"
 
 #: convert.py:84
 msgid "Knots"
-msgstr ""
+msgstr "समुद्री मील"
 
 #: convert.py:85
 msgid "Mach"
-msgstr ""
+msgstr "मच"
 
 #: convert.py:86
 msgid "Meters/Second"
-msgstr ""
+msgstr "मीटर / सेकेंड"
 
 #: convert.py:89
 msgid "Day"
@@ -288,27 +288,27 @@ msgstr "दूसरा"
 
 #: convert.py:96
 msgid "Millisecond"
-msgstr ""
+msgstr "मिलीसेकंड"
 
 #: convert.py:97
 msgid "Microsecond"
-msgstr ""
+msgstr "माइक्रोसेकंड"
 
 #: convert.py:98
 msgid "Nanosecond"
-msgstr ""
+msgstr "नैनो सेकंड"
 
 #: convert.py:99
 msgid "Picosecond"
-msgstr ""
+msgstr "पिको सेकंड"
 
 #: convert.py:102
 msgid "Celsius"
-msgstr ""
+msgstr "सेल्सीयस"
 
 #: convert.py:103
 msgid "Fahrenheit"
-msgstr ""
+msgstr "फारेनहाइट"
 
 #: convert.py:104
 msgid "Kelvin"

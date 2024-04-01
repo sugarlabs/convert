@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-10-29 08:24-0400\n"
-"PO-Revision-Date: 2018-02-10 18:06+0000\n"
+"PO-Revision-Date: 2018-11-11 20:26+0000\n"
 "Last-Translator: Besnik_b <besnik@programeshqip.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sq\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.1.1\n"
-"X-POOTLE-MTIME: 1518285994.000000\n"
+"X-POOTLE-MTIME: 1541967975.000000\n"
 
 #. TRANS: "name" option from activity.info file
 #. TRANS: "summary" option from activity.info file
@@ -68,7 +68,7 @@ msgstr "Centimetër (cm)"
 
 #: convert.py:22
 msgid "Cables"
-msgstr ""
+msgstr "Kabllo"
 
 #: convert.py:23
 msgid "Miles"
@@ -92,7 +92,7 @@ msgstr "Hektometra (hm)"
 
 #: convert.py:28
 msgid "Chains"
-msgstr ""
+msgstr "Zinxhirë"
 
 #: convert.py:29
 msgid "Ell"
