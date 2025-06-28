@@ -1,0 +1,528 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-08-12 17:41+1000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: activity/activity.info:2
+msgid "Convert"
+msgstr ""
+
+#. TRANS: https://en.wikipedia.org/wiki/Length
+#: activity.py:146
+msgid "Length"
+msgstr ""
+
+#. TRANS: https://en.wikipedia.org/wiki/Volume
+#: activity.py:153
+msgid "Volume"
+msgstr ""
+
+#. TRANS: https://en.wikipedia.org/wiki/Area
+#: activity.py:161
+msgid "Area"
+msgstr ""
+
+#. TRANS: https://en.wikipedia.org/wiki/Weight
+#: activity.py:169
+msgid "Weight"
+msgstr ""
+
+#. TRANS: https://en.wikipedia.org/wiki/Speed
+#: activity.py:177
+msgid "Speed"
+msgstr ""
+
+#. TRANS: https://en.wikipedia.org/wiki/Time
+#: activity.py:185
+msgid "Time"
+msgstr ""
+
+#. TRANS: https://en.wikipedia.org/wiki/Temperature
+#: activity.py:193
+msgid "Temperature"
+msgstr ""
+
+#: activity.py:201
+msgid "Angles of Circles"
+msgstr ""
+
+#: activity.py:209
+msgid "Pressure"
+msgstr ""
+
+#: activity.py:217
+msgid "Force"
+msgstr ""
+
+#: activity.py:225
+msgid "Energy"
+msgstr ""
+
+#: activity.py:233
+msgid "Digital Storage"
+msgstr ""
+
+#. TRANS: https://en.wikipedia.org/wiki/Metre
+#: convert.py:22
+msgid "Meters (m)"
+msgstr ""
+
+#. TRANS: https://en.wikipedia.org/wiki/Kilometre
+#: convert.py:24
+msgid "Kilometers (km)"
+msgstr ""
+
+#. TRANS: https://en.wikipedia.org/wiki/Centimetre
+#: convert.py:26
+msgid "Centimeter (cm)"
+msgstr ""
+
+#. TRANS: https://en.wikipedia.org/wiki/Cable_length
+#: convert.py:28
+msgid "Cables"
+msgstr ""
+
+#. TRANS: https://en.wikipedia.org/wiki/Mile
+#: convert.py:30
+msgid "Miles"
+msgstr ""
+
+#. TRANS: https://en.wikipedia.org/wiki/Millimetre
+#: convert.py:32
+msgid "Millimeters (mm)"
+msgstr ""
+
+#. TRANS: https://en.wikipedia.org/wiki/Decimetre
+#: convert.py:34
+msgid "Decimeter (dm)"
+msgstr ""
+
+#. TRANS: https://en.wikipedia.org/wiki/Decametre
+#: convert.py:36
+msgid "Decameter"
+msgstr ""
+
+#. TRANS: https://en.wikipedia.org/wiki/Hectometre
+#: convert.py:38
+msgid "Hectometers (hm)"
+msgstr ""
+
+#. TRANS: https://en.wikipedia.org/wiki/Chain_(unit)
+#: convert.py:40
+msgid "Chains"
+msgstr ""
+
+#. TRANS: https://en.wikipedia.org/wiki/Ell
+#: convert.py:42
+msgid "Ell"
+msgstr ""
+
+#. TRANS: https://en.wikipedia.org/wiki/Em_(typography)
+#: convert.py:44
+msgid "Ems (Pica)"
+msgstr ""
+
+#. TRANS: https://en.wikipedia.org/wiki/Fathom
+#: convert.py:46
+msgid "Fathoms"
+msgstr ""
+
+#. TRANS: https://en.wikipedia.org/wiki/Foot_(unit)
+#: convert.py:48
+msgid "feet"
+msgstr ""
+
+#. TRANS: https://en.wikipedia.org/wiki/Furlong
+#: convert.py:50
+msgid "Furlongs"
+msgstr ""
+
+#. TRANS: https://en.wikipedia.org/wiki/Inch
+#: convert.py:52
+msgid "Inches (in)"
+msgstr ""
+
+#. TRANS: https://en.wikipedia.org/wiki/Micrometre
+#: convert.py:54
+msgid "Micrometers"
+msgstr ""
+
+#. TRANS: https://en.wikipedia.org/wiki/Scandinavian_mile
+#: convert.py:56
+msgid "Scandinavian mile"
+msgstr ""
+
+#. TRANS: https://en.wikipedia.org/wiki/Yard
+#: convert.py:58
+msgid "Yards"
+msgstr ""
+
+#. TRANS: https://en.wikipedia.org/wiki/Metre
+#: convert.py:63
+msgid "Square Meter"
+msgstr ""
+
+#: convert.py:64
+msgid "Square feet"
+msgstr ""
+
+#. TRANS: https://en.wikipedia.org/wiki/Yard
+#: convert.py:66
+msgid "Square Yard"
+msgstr ""
+
+#. TRANS: https://en.wikipedia.org/wiki/Inch
+#: convert.py:68
+msgid "Square Inch"
+msgstr ""
+
+#. TRANS: https://en.wikipedia.org/wiki/Kilometre
+#: convert.py:70
+msgid "Square Kilometer"
+msgstr ""
+
+#. TRANS: https://en.wikipedia.org/wiki/Mile
+#: convert.py:72
+msgid "Square Mile"
+msgstr ""
+
+#. TRANS: https://en.wikipedia.org/wiki/Centimetre
+#: convert.py:74
+msgid "Square Centimeter"
+msgstr ""
+
+#. TRANS: https://en.wikipedia.org/wiki/Millimetre
+#: convert.py:76
+msgid "Square Millimeter"
+msgstr ""
+
+#. TRANS: https://en.wikipedia.org/wiki/Micrometre
+#: convert.py:78
+msgid "Square Micrometer"
+msgstr ""
+
+#. TRANS: https://en.wikipedia.org/wiki/Acre
+#: convert.py:80
+msgid "Acre"
+msgstr ""
+
+#. TRANS: https://en.wikipedia.org/wiki/Gram
+#: convert.py:85
+msgid "Gram"
+msgstr ""
+
+#. TRANS: https://en.wikipedia.org/wiki/Kilogram
+#: convert.py:87
+msgid "Kilogram"
+msgstr ""
+
+#. TRANS: https://en.wikipedia.org/wiki/Kilogram#SI_multiples
+#: convert.py:89
+msgid "Milligram"
+msgstr ""
+
+#. TRANS: https://en.wikipedia.org/wiki/Ton
+#: convert.py:91
+msgid "Ton"
+msgstr ""
+
+#. TRANS: https://en.wikipedia.org/wiki/Pound_(mass)
+#: convert.py:93
+msgid "Pound"
+msgstr ""
+
+#. TRANS: https://en.wikipedia.org/wiki/Ounce
+#: convert.py:95
+msgid "Ounce"
+msgstr ""
+
+#. TRANS: https://en.wikipedia.org/wiki/Carat_(mass)
+#: convert.py:97
+msgid "Carat"
+msgstr ""
+
+#: convert.py:101
+msgid "Cubic Meter"
+msgstr ""
+
+#: convert.py:102
+msgid "Cubic feet"
+msgstr ""
+
+#: convert.py:103
+msgid "Cubic Yard"
+msgstr ""
+
+#: convert.py:104
+msgid "Cubic Inch"
+msgstr ""
+
+#: convert.py:105
+msgid "Cubic Kilometer"
+msgstr ""
+
+#: convert.py:106
+msgid "Cubic Mile"
+msgstr ""
+
+#: convert.py:107
+msgid "Cubic Centimeter"
+msgstr ""
+
+#: convert.py:108
+msgid "Cubic Millimeter"
+msgstr ""
+
+#. TRANS: https://en.wikipedia.org/wiki/Litre
+#: convert.py:110
+msgid "Liter"
+msgstr ""
+
+#. TRANS: https://en.wikipedia.org/wiki/Litre
+#: convert.py:112
+msgid "Milliliter"
+msgstr ""
+
+#. TRANS: https://en.wikipedia.org/wiki/Pint
+#: convert.py:114
+msgid "Pint"
+msgstr ""
+
+#. TRANS: https://en.wikipedia.org/wiki/Quart
+#: convert.py:116
+msgid "Quart"
+msgstr ""
+
+#. TRANS: https://en.wikipedia.org/wiki/Gallon
+#: convert.py:118
+msgid "Gallon"
+msgstr ""
+
+#. TRANS: https://en.wikipedia.org/wiki/Kilometres_per_hour
+#: convert.py:123
+msgid "Kilometers/Hour"
+msgstr ""
+
+#: convert.py:124
+msgid "Centimeters/Minute"
+msgstr ""
+
+#: convert.py:125
+msgid "Centimeters/Second"
+msgstr ""
+
+#: convert.py:126
+msgid "feet/Hour"
+msgstr ""
+
+#: convert.py:127
+msgid "Feet/Minute"
+msgstr ""
+
+#. TRANS: https://en.wikipedia.org/wiki/Foot_per_second
+#: convert.py:129
+msgid "Feet/Second"
+msgstr ""
+
+#. TRANS: https://en.wikipedia.org/wiki/Inch_per_second
+#: convert.py:131
+msgid "Inches/Second"
+msgstr ""
+
+#: convert.py:132
+msgid "Kilometers/Second"
+msgstr ""
+
+#. TRANS: https://en.wikipedia.org/wiki/Knot_(unit)
+#: convert.py:134
+msgid "Knots"
+msgstr ""
+
+#. TRANS: https://en.wikipedia.org/wiki/Mach_number
+#: convert.py:136
+msgid "Mach"
+msgstr ""
+
+#. TRANS: https://en.wikipedia.org/wiki/Metre_per_second
+#: convert.py:138
+msgid "Meters/Second"
+msgstr ""
+
+#. TRANS: https://en.wikipedia.org/wiki/Day
+#: convert.py:143
+msgid "Day"
+msgstr ""
+
+#. TRANS: https://en.wikipedia.org/wiki/Week
+#: convert.py:145
+msgid "Week"
+msgstr ""
+
+#. TRANS: https://en.wikipedia.org/wiki/Month
+#: convert.py:147
+msgid "Month"
+msgstr ""
+
+#. TRANS: https://en.wikipedia.org/wiki/Year
+#: convert.py:149
+msgid "Year"
+msgstr ""
+
+#. TRANS: https://en.wikipedia.org/wiki/Hour
+#: convert.py:151
+msgid "Hour"
+msgstr ""
+
+#. TRANS: https://en.wikipedia.org/wiki/Minute
+#: convert.py:153
+msgid "Minute"
+msgstr ""
+
+#. TRANS: https://en.wikipedia.org/wiki/Second
+#: convert.py:155
+msgid "Second"
+msgstr ""
+
+#. TRANS: https://en.wikipedia.org/wiki/Millisecond
+#: convert.py:157
+msgid "Millisecond"
+msgstr ""
+
+#. TRANS: https://en.wikipedia.org/wiki/Microsecond
+#: convert.py:159
+msgid "Microsecond"
+msgstr ""
+
+#. TRANS: https://en.wikipedia.org/wiki/Nanosecond
+#: convert.py:161
+msgid "Nanosecond"
+msgstr ""
+
+#. TRANS: https://en.wikipedia.org/wiki/Picosecond
+#: convert.py:163
+msgid "Picosecond"
+msgstr ""
+
+#. TRANS: https://en.wikipedia.org/wiki/Celsius
+#: convert.py:168
+msgid "Celsius"
+msgstr ""
+
+#. TRANS: https://en.wikipedia.org/wiki/Kelvin
+#: convert.py:170
+msgid "Kelvin"
+msgstr ""
+
+#. TRANS: https://en.wikipedia.org/wiki/Fahrenheit
+#: convert.py:172
+msgid "Fahrenheit"
+msgstr ""
+
+#: convert.py:176
+msgid "Degrees"
+msgstr ""
+
+#: convert.py:177
+msgid "Radians"
+msgstr ""
+
+#: convert.py:181
+msgid "Pascal (Pa)"
+msgstr ""
+
+#: convert.py:182
+msgid "Bar"
+msgstr ""
+
+#: convert.py:183
+msgid "Atmosphere (atm)"
+msgstr ""
+
+#: convert.py:184
+msgid "Torr"
+msgstr ""
+
+#: convert.py:185
+msgid "Pounds per square inch (psi)"
+msgstr ""
+
+#: convert.py:189
+msgid "Newton (N)"
+msgstr ""
+
+#: convert.py:190
+msgid "Dyne (dyn)"
+msgstr ""
+
+#: convert.py:191
+msgid "Poundal (pdl)"
+msgstr ""
+
+#: convert.py:192
+msgid "Kilogram-force (kp)"
+msgstr ""
+
+#: convert.py:196
+msgid "Joules (J)"
+msgstr ""
+
+#: convert.py:197
+msgid "KiloJoule (KJ)"
+msgstr ""
+
+#: convert.py:198
+msgid "Calories (cal)"
+msgstr ""
+
+#: convert.py:199
+msgid "KiloCalories (KCal)"
+msgstr ""
+
+#: convert.py:200
+msgid "Watt hour"
+msgstr ""
+
+#: convert.py:201
+msgid "Electronvolt (eV)"
+msgstr ""
+
+#: convert.py:205
+msgid "Byte"
+msgstr ""
+
+#: convert.py:206
+msgid "Bit"
+msgstr ""
+
+#: convert.py:207
+msgid "Kilobyte (KB)"
+msgstr ""
+
+#: convert.py:208
+msgid "Megabyte (MB)"
+msgstr ""
+
+#: convert.py:209
+msgid "Gigabyte (GB)"
+msgstr ""
+
+#: convert.py:210
+msgid "Terabyte (TB)"
+msgstr ""
+
+#: convert.py:211
+msgid "Petabyte (PB)"
+msgstr ""
