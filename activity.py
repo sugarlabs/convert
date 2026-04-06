@@ -36,7 +36,15 @@ from sugar3.graphics.style import FONT_SIZE, FONT_FACE
 from gettext import gettext as _
 
 
-class Ratio(Gtk.Label):
+class Conversion(Gtk.Label):
+    def __init__(self):
+        Gtk.Label.__init__(self)
+        self.set_selectable(True)
+        self.modify_font(Pango.FontDescription(
+                       '%s %d' % (FONT_FACE, int(FONT_SIZE * 1.2))))
+
+
+class Result(Gtk.Label):
     def __init__(self):
         Gtk.Label.__init__(self)
         self.set_selectable(True)
@@ -121,12 +129,14 @@ class ConvertActivity(activity.Activity):
         l_hbox.pack_start(self.to_value, True, True, 5)
         l_hbox.pack_end(self.to_unit, True, True, 5)
 
-        self.ratio = Ratio()
+        self.result = Result()
+        self.conversion = Conversion()
 
         box = Gtk.Box(orientation=Gtk.Orientation.VERTICAL)
         box.pack_start(u_hbox, False, False, 30)
         box.pack_start(l_hbox, False, False, 0)
-        box.pack_start(self.ratio, True, False, 0)
+        box.pack_start(self.conversion, False, False, 20)
+        box.pack_start(self.result, True, False, 0)
         self.set_canvas(box)
 
         # Toolbar
@@ -148,7 +158,7 @@ class ConvertActivity(activity.Activity):
             button.props.icon_name = name
             if len(self.dimensions) > 0:
                 button.props.group = self.dimensions['length']
-            button.connect('clicked', self.set_dimension, name)
+            button.connect('clicked', self._set_dimension, name)
             toolbarbox.toolbar.insert(button, -1)
             self.dimensions[name] = button
 
@@ -161,7 +171,8 @@ class ConvertActivity(activity.Activity):
         toolbarbox.toolbar.insert(stopbtn, -1)
 
         self.set_toolbar_box(toolbarbox)
-        self.set_dimension(None, 'length')
+        self._set_dimension(None, 'length')
+        self._update_conversion(direction='from')
         self.show_all()
 
     def _from_changed_cb(self, widget):
@@ -172,6 +183,7 @@ class ConvertActivity(activity.Activity):
             if self.arrow.get_text() == '←':
                 direction = 'to'
             self._update_unit(widget, direction)
+            self._update_conversion(direction)
 
     def _to_changed_cb(self, widget):
         direction = 'to'
@@ -181,27 +193,50 @@ class ConvertActivity(activity.Activity):
             if self.arrow.get_text() == '→':
                 direction = 'from'
             self._update_unit(widget, direction)
+            self._update_conversion(direction)
 
     def _update_value(self, entry, direction):
         try:
             num_value = str(entry.get_text())
             num_value = float(num_value.replace(',', ''))
-            decimals = str(len(str(num_value).split('.')[-1]))
-            fmt = '%.' + decimals + 'f'
-            new_value = locale.format(fmt, float(num_value))
-            new_value = new_value.rstrip("0")
-            if new_value[-1] == '.':
-                new_value = new_value[0:len(new_value) - 1]
-            convert_value = str(self.convert(num_value, direction))
-            decimals = str(len(convert_value.split('.')[-1]))
-            fmt = '%.' + decimals + 'f'
-            new_convert = locale.format(fmt, float(convert_value))
-            new_convert = new_convert.rstrip("0")
-            if new_convert[-1] == '.':
-                new_convert = new_convert[0:len(new_convert) - 1]
-            self.change_result(new_value, new_convert, direction)
+            new_value = self._format_values(num_value)
+            convert_value = str(self._convert(num_value, direction))
+            new_convert = self._format_values(convert_value)
+            self._update_result(new_value, new_convert, direction)
+            self._update_conversion(direction)
+
         except ValueError:
-            self.change_result('', '', direction)
+            self._update_result('', '', direction)
+            self._update_conversion(direction)
+
+    def _update_conversion(self, direction):
+        value = self._format_values('1')
+        convert = self._format_values(str(self._convert(float(value), direction)))
+        text = self.conversion.get_text()
+        if direction == 'from':
+            if convert != '' and value != '':
+                text = '%s %s : %s %s' % (
+                    value, self._get_active_text(self.from_unit),
+                    convert, self._get_active_text(self.to_unit))
+            else:
+                pass
+        elif direction == 'to':
+            if convert != '' and value != '':
+                text = '%s %s : %s %s' % (
+                    convert, self._get_active_text(self.from_unit),
+                    value, self._get_active_text(self.to_unit))
+            else:
+                pass
+        self.conversion.set_text(text)
+
+    def _format_values(self, value):
+        decimals = str(len(str(value).split('.')[-1]))
+        fmt = '%.' + decimals + 'f'
+        new_value = locale.format(fmt, float(value))
+        new_value = new_value.rstrip("0")
+        if new_value[-1] == '.':
+            new_value = new_value[0:len(new_value) - 1]
+        return new_value
 
     def _update_unit(self, combo, direction):
         if direction == 'from':
@@ -209,7 +244,7 @@ class ConvertActivity(activity.Activity):
         elif direction == 'to':
             self._update_value(self.to_value, direction)
 
-    def change_result(self, new_value, new_convert, direction):
+    def _update_result(self, new_value, new_convert, direction):
         if direction == 'from':
             self.to_value.handler_block_by_func(self._to_changed_cb)
             self.to_value.handler_block_by_func(self._insert_text_cb)
@@ -226,9 +261,9 @@ class ConvertActivity(activity.Activity):
                 text = '%s %s ~ %s %s' % (
                     new_value, self._get_active_text(self.from_unit),
                     new_convert, self._get_active_text(self.to_unit))
-                self.ratio.set_text(text)
+                self.result.set_text(text)
             else:
-                self.ratio.set_text('')
+                self.result.set_text('')
 
         elif direction == 'to':
             self.from_value.handler_block_by_func(self._from_changed_cb)
@@ -246,11 +281,11 @@ class ConvertActivity(activity.Activity):
                 text = '%s %s ~ %s %s' % (
                     new_convert, self._get_active_text(self.from_unit),
                     new_value, self._get_active_text(self.to_unit))
-                self.ratio.set_text(text)
+                self.result.set_text(text)
             else:
-                self.ratio.set_text('')
+                self.result.set_text('')
 
-    def set_dimension(self, widget, name):
+    def _set_dimension(self, widget, name):
         self.dimension = name
 
         self.units = convert.dimension_units[name]
@@ -276,7 +311,7 @@ class ConvertActivity(activity.Activity):
             text = text.split('<b>')[1].split('</b>')[0]
         return text
 
-    def convert(self, num_value, direction):
+    def _convert(self, num_value, direction):
         if direction == 'from':
             unit = self._get_active_text(self.from_unit)
             to_unit = self._get_active_text(self.to_unit)
@@ -308,7 +343,7 @@ class ConvertActivity(activity.Activity):
             'direction': direction,
         }
         self.metadata['state'] = json.dumps(state)
-        file(file_path, 'w').close()
+        open(file_path, 'w').close()
 
     def read_file(self, file_path):
         if 'state' in self.metadata:
@@ -324,3 +359,5 @@ class ConvertActivity(activity.Activity):
             else:
                 self.from_value.set_text(state['from-value'])
                 self.to_value.set_text(state['to-value'])
+
+            self._update_conversion(state['direction'])
