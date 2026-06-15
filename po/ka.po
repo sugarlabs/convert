@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-12 17:41+1000\n"
-"PO-Revision-Date: 2026-04-01 08:11+0000\n"
+"PO-Revision-Date: 2026-06-15 07:48+0000\n"
 "Last-Translator: NF <rkavt@smartprojects.ge>\n"
 "Language-Team: Georgian <http://weblate.sugarlabs.org/projects/"
 "sugar-activities/convert/ka/>\n"
@@ -367,22 +367,22 @@ msgstr ""
 #. TRANS: https://en.wikipedia.org/wiki/Day
 #: convert.py:143
 msgid "Day"
-msgstr ""
+msgstr "დღე"
 
 #. TRANS: https://en.wikipedia.org/wiki/Week
 #: convert.py:145
 msgid "Week"
-msgstr ""
+msgstr "კვირა"
 
 #. TRANS: https://en.wikipedia.org/wiki/Month
 #: convert.py:147
 msgid "Month"
-msgstr ""
+msgstr "თვე"
 
 #. TRANS: https://en.wikipedia.org/wiki/Year
 #: convert.py:149
 msgid "Year"
-msgstr ""
+msgstr "წელი"
 
 #. TRANS: https://en.wikipedia.org/wiki/Hour
 #: convert.py:151
