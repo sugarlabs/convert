@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-12 17:41+1000\n"
-"PO-Revision-Date: 2026-06-15 07:48+0000\n"
+"PO-Revision-Date: 2026-06-15 08:49+0000\n"
 "Last-Translator: NF <rkavt@smartprojects.ge>\n"
 "Language-Team: Georgian <http://weblate.sugarlabs.org/projects/"
 "sugar-activities/convert/ka/>\n"
@@ -21,42 +21,42 @@ msgstr ""
 
 #: activity/activity.info:2
 msgid "Convert"
-msgstr ""
+msgstr "გადაყვანა"
 
 #. TRANS: https://en.wikipedia.org/wiki/Length
 #: activity.py:146
 msgid "Length"
-msgstr ""
+msgstr "სიგრძე"
 
 #. TRANS: https://en.wikipedia.org/wiki/Volume
 #: activity.py:153
 msgid "Volume"
-msgstr ""
+msgstr "მოცულობა"
 
 #. TRANS: https://en.wikipedia.org/wiki/Area
 #: activity.py:161
 msgid "Area"
-msgstr ""
+msgstr "არე"
 
 #. TRANS: https://en.wikipedia.org/wiki/Weight
 #: activity.py:169
 msgid "Weight"
-msgstr ""
+msgstr "წონა"
 
 #. TRANS: https://en.wikipedia.org/wiki/Speed
 #: activity.py:177
 msgid "Speed"
-msgstr ""
+msgstr "სიჩქარე"
 
 #. TRANS: https://en.wikipedia.org/wiki/Time
 #: activity.py:185
 msgid "Time"
-msgstr ""
+msgstr "დრო"
 
 #. TRANS: https://en.wikipedia.org/wiki/Temperature
 #: activity.py:193
 msgid "Temperature"
-msgstr ""
+msgstr "ტემპერატურა"
 
 #: activity.py:201
 msgid "Angles of Circles"
@@ -96,12 +96,12 @@ msgstr ""
 #. TRANS: https://en.wikipedia.org/wiki/Cable_length
 #: convert.py:28
 msgid "Cables"
-msgstr ""
+msgstr "კაბელტოვი"
 
 #. TRANS: https://en.wikipedia.org/wiki/Mile
 #: convert.py:30
 msgid "Miles"
-msgstr ""
+msgstr "მილი"
 
 #. TRANS: https://en.wikipedia.org/wiki/Millimetre
 #: convert.py:32
@@ -116,7 +116,7 @@ msgstr ""
 #. TRANS: https://en.wikipedia.org/wiki/Decametre
 #: convert.py:36
 msgid "Decameter"
-msgstr ""
+msgstr "დეკამეტრი"
 
 #. TRANS: https://en.wikipedia.org/wiki/Hectometre
 #: convert.py:38
@@ -126,12 +126,12 @@ msgstr ""
 #. TRANS: https://en.wikipedia.org/wiki/Chain_(unit)
 #: convert.py:40
 msgid "Chains"
-msgstr ""
+msgstr "საზომი ჯაჭვი"
 
 #. TRANS: https://en.wikipedia.org/wiki/Ell
 #: convert.py:42
 msgid "Ell"
-msgstr ""
+msgstr "ელი"
 
 #. TRANS: https://en.wikipedia.org/wiki/Em_(typography)
 #: convert.py:44
@@ -141,7 +141,7 @@ msgstr ""
 #. TRANS: https://en.wikipedia.org/wiki/Fathom
 #: convert.py:46
 msgid "Fathoms"
-msgstr ""
+msgstr "საზღვაო საჟენი"
 
 #. TRANS: https://en.wikipedia.org/wiki/Foot_(unit)
 #: convert.py:48
@@ -151,7 +151,7 @@ msgstr "ფუტი"
 #. TRANS: https://en.wikipedia.org/wiki/Furlong
 #: convert.py:50
 msgid "Furlongs"
-msgstr ""
+msgstr "ფურლონგი"
 
 #. TRANS: https://en.wikipedia.org/wiki/Inch
 #: convert.py:52
@@ -161,7 +161,7 @@ msgstr ""
 #. TRANS: https://en.wikipedia.org/wiki/Micrometre
 #: convert.py:54
 msgid "Micrometers"
-msgstr ""
+msgstr "მიკრომეტრი"
 
 #. TRANS: https://en.wikipedia.org/wiki/Scandinavian_mile
 #: convert.py:56
@@ -171,7 +171,7 @@ msgstr ""
 #. TRANS: https://en.wikipedia.org/wiki/Yard
 #: convert.py:58
 msgid "Yards"
-msgstr ""
+msgstr "იარდი"
 
 #. TRANS: https://en.wikipedia.org/wiki/Metre
 #: convert.py:63
@@ -220,42 +220,42 @@ msgstr ""
 #. TRANS: https://en.wikipedia.org/wiki/Acre
 #: convert.py:80
 msgid "Acre"
-msgstr ""
+msgstr "აკრი"
 
 #. TRANS: https://en.wikipedia.org/wiki/Gram
 #: convert.py:85
 msgid "Gram"
-msgstr ""
+msgstr "გრამი"
 
 #. TRANS: https://en.wikipedia.org/wiki/Kilogram
 #: convert.py:87
 msgid "Kilogram"
-msgstr ""
+msgstr "კილოგრამი"
 
 #. TRANS: https://en.wikipedia.org/wiki/Kilogram#SI_multiples
 #: convert.py:89
 msgid "Milligram"
-msgstr ""
+msgstr "მილიგრამი"
 
 #. TRANS: https://en.wikipedia.org/wiki/Ton
 #: convert.py:91
 msgid "Ton"
-msgstr ""
+msgstr "ტონა"
 
 #. TRANS: https://en.wikipedia.org/wiki/Pound_(mass)
 #: convert.py:93
 msgid "Pound"
-msgstr ""
+msgstr "გირვანქა"
 
 #. TRANS: https://en.wikipedia.org/wiki/Ounce
 #: convert.py:95
 msgid "Ounce"
-msgstr ""
+msgstr "უნცია"
 
 #. TRANS: https://en.wikipedia.org/wiki/Carat_(mass)
 #: convert.py:97
 msgid "Carat"
-msgstr ""
+msgstr "კარატი"
 
 #: convert.py:101
 msgid "Cubic Meter"
@@ -292,40 +292,40 @@ msgstr ""
 #. TRANS: https://en.wikipedia.org/wiki/Litre
 #: convert.py:110
 msgid "Liter"
-msgstr ""
+msgstr "ლიტრი"
 
 #. TRANS: https://en.wikipedia.org/wiki/Litre
 #: convert.py:112
 msgid "Milliliter"
-msgstr ""
+msgstr "მილილიტრი"
 
 #. TRANS: https://en.wikipedia.org/wiki/Pint
 #: convert.py:114
 msgid "Pint"
-msgstr ""
+msgstr "პინტა"
 
 #. TRANS: https://en.wikipedia.org/wiki/Quart
 #: convert.py:116
 msgid "Quart"
-msgstr ""
+msgstr "კვარტი"
 
 #. TRANS: https://en.wikipedia.org/wiki/Gallon
 #: convert.py:118
 msgid "Gallon"
-msgstr ""
+msgstr "გალონი"
 
 #. TRANS: https://en.wikipedia.org/wiki/Kilometres_per_hour
 #: convert.py:123
 msgid "Kilometers/Hour"
-msgstr ""
+msgstr "კილომეტრი/საათში"
 
 #: convert.py:124
 msgid "Centimeters/Minute"
-msgstr ""
+msgstr "სანტიმეტრი/წუთში"
 
 #: convert.py:125
 msgid "Centimeters/Second"
-msgstr ""
+msgstr "სანტიმეტრი/წამში"
 
 #: convert.py:126
 msgid "feet/Hour"
@@ -529,3 +529,35 @@ msgstr ""
 #: convert.py:211
 msgid "Petabyte (PB)"
 msgstr ""
+
+#: convert.py:40 convert.py:61
+msgid "Meter"
+msgstr "მეტრი"
+
+#: convert.py:42 convert.py:63
+msgid "Yard"
+msgstr "იარდი"
+
+#: convert.py:43 convert.py:64
+msgid "Inch"
+msgstr "დუიმი"
+
+#: convert.py:44 convert.py:65
+msgid "Kilometer"
+msgstr "კილომეტრი"
+
+#: convert.py:45 convert.py:66
+msgid "Mile"
+msgstr "მილი"
+
+#: convert.py:46 convert.py:67
+msgid "Centimeter"
+msgstr "სანტიმეტრი"
+
+#: convert.py:48
+msgid "Micrometer"
+msgstr "მიკრომეტრი"
+
+#: convert.py:47 convert.py:68
+msgid "Millimeter"
+msgstr "მილიმეტრი"
