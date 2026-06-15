@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-12 17:41+1000\n"
-"PO-Revision-Date: 2026-06-15 08:49+0000\n"
+"PO-Revision-Date: 2026-06-15 08:59+0000\n"
 "Last-Translator: NF <rkavt@smartprojects.ge>\n"
 "Language-Team: Georgian <http://weblate.sugarlabs.org/projects/"
 "sugar-activities/convert/ka/>\n"
@@ -329,40 +329,40 @@ msgstr "სანტიმეტრი/წამში"
 
 #: convert.py:126
 msgid "feet/Hour"
-msgstr ""
+msgstr "ფუტი/საათში"
 
 #: convert.py:127
 msgid "Feet/Minute"
-msgstr ""
+msgstr "ფუტი/წუთში"
 
 #. TRANS: https://en.wikipedia.org/wiki/Foot_per_second
 #: convert.py:129
 msgid "Feet/Second"
-msgstr ""
+msgstr "ფუტი/წამში"
 
 #. TRANS: https://en.wikipedia.org/wiki/Inch_per_second
 #: convert.py:131
 msgid "Inches/Second"
-msgstr ""
+msgstr "დუიმი/წამში"
 
 #: convert.py:132
 msgid "Kilometers/Second"
-msgstr ""
+msgstr "კილომეტრი/წამში"
 
 #. TRANS: https://en.wikipedia.org/wiki/Knot_(unit)
 #: convert.py:134
 msgid "Knots"
-msgstr ""
+msgstr "კვანძი"
 
 #. TRANS: https://en.wikipedia.org/wiki/Mach_number
 #: convert.py:136
 msgid "Mach"
-msgstr ""
+msgstr "მახის რიცხვი"
 
 #. TRANS: https://en.wikipedia.org/wiki/Metre_per_second
 #: convert.py:138
 msgid "Meters/Second"
-msgstr ""
+msgstr "მეტრი/წამში"
 
 #. TRANS: https://en.wikipedia.org/wiki/Day
 #: convert.py:143
@@ -387,52 +387,52 @@ msgstr "წელი"
 #. TRANS: https://en.wikipedia.org/wiki/Hour
 #: convert.py:151
 msgid "Hour"
-msgstr ""
+msgstr "საათი"
 
 #. TRANS: https://en.wikipedia.org/wiki/Minute
 #: convert.py:153
 msgid "Minute"
-msgstr ""
+msgstr "წუთი"
 
 #. TRANS: https://en.wikipedia.org/wiki/Second
 #: convert.py:155
 msgid "Second"
-msgstr ""
+msgstr "წამი"
 
 #. TRANS: https://en.wikipedia.org/wiki/Millisecond
 #: convert.py:157
 msgid "Millisecond"
-msgstr ""
+msgstr "მილიწამი"
 
 #. TRANS: https://en.wikipedia.org/wiki/Microsecond
 #: convert.py:159
 msgid "Microsecond"
-msgstr ""
+msgstr "მიკროწამი"
 
 #. TRANS: https://en.wikipedia.org/wiki/Nanosecond
 #: convert.py:161
 msgid "Nanosecond"
-msgstr ""
+msgstr "ნანოწამი"
 
 #. TRANS: https://en.wikipedia.org/wiki/Picosecond
 #: convert.py:163
 msgid "Picosecond"
-msgstr ""
+msgstr "პიკოწამი"
 
 #. TRANS: https://en.wikipedia.org/wiki/Celsius
 #: convert.py:168
 msgid "Celsius"
-msgstr ""
+msgstr "ცელსიუსი"
 
 #. TRANS: https://en.wikipedia.org/wiki/Kelvin
 #: convert.py:170
 msgid "Kelvin"
-msgstr ""
+msgstr "კელვინი"
 
 #. TRANS: https://en.wikipedia.org/wiki/Fahrenheit
 #: convert.py:172
 msgid "Fahrenheit"
-msgstr ""
+msgstr "ფარენჰეიტი"
 
 #: convert.py:176
 msgid "Degrees"
