@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-12 17:41+1000\n"
-"PO-Revision-Date: 2026-06-15 08:59+0000\n"
+"PO-Revision-Date: 2026-06-17 09:05+0000\n"
 "Last-Translator: NF <rkavt@smartprojects.ge>\n"
 "Language-Team: Georgian <http://weblate.sugarlabs.org/projects/"
 "sugar-activities/convert/ka/>\n"
@@ -81,17 +81,17 @@ msgstr ""
 #. TRANS: https://en.wikipedia.org/wiki/Metre
 #: convert.py:22
 msgid "Meters (m)"
-msgstr ""
+msgstr "მეტრი (მ)"
 
 #. TRANS: https://en.wikipedia.org/wiki/Kilometre
 #: convert.py:24
 msgid "Kilometers (km)"
-msgstr ""
+msgstr "კილომეტრი (კმ)"
 
 #. TRANS: https://en.wikipedia.org/wiki/Centimetre
 #: convert.py:26
 msgid "Centimeter (cm)"
-msgstr ""
+msgstr "სანტიმეტრი (სმ)"
 
 #. TRANS: https://en.wikipedia.org/wiki/Cable_length
 #: convert.py:28
@@ -106,12 +106,12 @@ msgstr "მილი"
 #. TRANS: https://en.wikipedia.org/wiki/Millimetre
 #: convert.py:32
 msgid "Millimeters (mm)"
-msgstr ""
+msgstr "მილიმეტრი (მმ)"
 
 #. TRANS: https://en.wikipedia.org/wiki/Decimetre
 #: convert.py:34
 msgid "Decimeter (dm)"
-msgstr ""
+msgstr "დეციმეტრი (დმ)"
 
 #. TRANS: https://en.wikipedia.org/wiki/Decametre
 #: convert.py:36
@@ -121,7 +121,7 @@ msgstr "დეკამეტრი"
 #. TRANS: https://en.wikipedia.org/wiki/Hectometre
 #: convert.py:38
 msgid "Hectometers (hm)"
-msgstr ""
+msgstr "ჰექტომეტრი (ჰმ)"
 
 #. TRANS: https://en.wikipedia.org/wiki/Chain_(unit)
 #: convert.py:40
@@ -136,7 +136,7 @@ msgstr "ელი"
 #. TRANS: https://en.wikipedia.org/wiki/Em_(typography)
 #: convert.py:44
 msgid "Ems (Pica)"
-msgstr ""
+msgstr "ემ (პიკა)"
 
 #. TRANS: https://en.wikipedia.org/wiki/Fathom
 #: convert.py:46
@@ -156,7 +156,7 @@ msgstr "ფურლონგი"
 #. TRANS: https://en.wikipedia.org/wiki/Inch
 #: convert.py:52
 msgid "Inches (in)"
-msgstr ""
+msgstr "დუიმი (in)"
 
 #. TRANS: https://en.wikipedia.org/wiki/Micrometre
 #: convert.py:54
@@ -166,7 +166,7 @@ msgstr "მიკრომეტრი"
 #. TRANS: https://en.wikipedia.org/wiki/Scandinavian_mile
 #: convert.py:56
 msgid "Scandinavian mile"
-msgstr ""
+msgstr "სკანდინავიური მილი"
 
 #. TRANS: https://en.wikipedia.org/wiki/Yard
 #: convert.py:58
